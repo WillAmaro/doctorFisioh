@@ -32,7 +32,7 @@ export const hero = {
   highlight: "Fisioterapia",
   description:
     "Aprende a elegir y dosificar los agentes físicos según el dolor, la inflamación y la reparación tisular, para un tratamiento más efectivo y seguro.",
-  image: "/images/hero.svg",
+  image: "/images/banner.jpg",
   price: { amount: "US$ 35", note: "Descuento exclusivo de la web" },
 };
 
@@ -72,7 +72,7 @@ export const equipment: SectionIntro & {
   title: "Equipos que aprenderás a utilizar",
   subtitle:
     "Conoce y domina los principales equipos de agentes físicos en fisioterapia.",
-  image: "/images/equipment.svg",
+  image: "/images/fisioterapy.jpg",
   items: [
     { icon: "activity", label: "Electroterapia" },
     { icon: "waves", label: "Ultrasonido" },
@@ -175,7 +175,7 @@ export const finalCta = {
   title: "¡No esperes más!",
   description:
     "Fortalece tus conocimientos y mejora tu práctica clínica con este curso 100% virtual.",
-  image: "/images/cta.svg",
+  image: "/images/recovery.jpg",
   primary: { label: "Descarga el temario", href: "#" } satisfies Cta,
   secondary: { label: "Guía de dosificación gratuita", href: "#" } satisfies Cta,
 };

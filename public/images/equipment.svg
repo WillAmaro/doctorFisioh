@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF3FD"/>
+      <stop offset="1" stop-color="#CFE3F8"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0C4A0"/>
+      <stop offset="1" stop-color="#DDA27A"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bg)"/>
+  <circle cx="680" cy="190" r="240" fill="#fff" opacity=".5"/>
+
+  <!-- equipo de fondo -->
+  <g transform="translate(80 60)">
+    <rect x="0" y="0" width="260" height="170" rx="18" fill="#F7FAFE" stroke="#BFD3EC" stroke-width="3"/>
+    <rect x="16" y="16" width="228" height="138" rx="12" fill="#12356F"/>
+    <polyline points="34,92 80,92 98,48 120,126 142,66 164,108 190,108 228,108" stroke="#1FE0C4" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="110" y="170" width="40" height="120" fill="#B3C8E4"/>
+    <rect x="30" y="290" width="200" height="200" rx="16" fill="#DCE8F7"/>
+    <rect x="52" y="318" width="156" height="14" rx="7" fill="#fff"/>
+    <rect x="52" y="348" width="156" height="14" rx="7" fill="#fff"/>
+  </g>
+
+  <!-- pierna -->
+  <path d="M330 600V480C450 440 600 430 740 450C820 462 870 490 900 520V600Z" fill="url(#skin)"/>
+  <circle cx="650" cy="470" r="64" fill="#E7B28D"/>
+
+  <!-- mano con aplicador -->
+  <path d="M760 130C700 210 650 280 600 360" stroke="#1B53B8" stroke-width="80" stroke-linecap="round" fill="none"/>
+  <path d="M604 354L560 410" stroke="url(#skin)" stroke-width="46" stroke-linecap="round"/>
+  <path d="M580 392L630 450" stroke="#7E92AE" stroke-width="40" stroke-linecap="round"/>
+  <circle cx="640" cy="462" r="34" fill="#C9D7EA"/>
+  <circle cx="640" cy="462" r="16" fill="#5E7699"/>
+  <path d="M560 380C470 330 430 270 400 200" stroke="#12356F" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#082A66"/>
+      <stop offset="1" stop-color="#0E4FB5"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7B591"/>
+      <stop offset="1" stop-color="#C98A62"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C3CEDD"/>
+      <stop offset="1" stop-color="#6E809A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <circle cx="980" cy="200" r="300" fill="#fff" opacity=".05"/>
+  <path d="M600 500V430C720 400 860 392 980 400C1080 408 1150 430 1200 450V500Z" fill="url(#skin)"/>
+  <circle cx="930" cy="430" r="60" fill="#D89C75"/>
+  <path d="M1100 40C1050 120 1000 190 940 260" stroke="#17479F" stroke-width="86" stroke-linecap="round" fill="none"/>
+  <path d="M944 254L900 306" stroke="url(#skin)" stroke-width="50" stroke-linecap="round"/>
+  <path d="M912 296L952 342" stroke="url(#metal)" stroke-width="64" stroke-linecap="round"/>
+  <circle cx="968" cy="372" r="42" fill="url(#metal)"/>
+  <circle cx="968" cy="372" r="20" fill="#51668A"/>
+  <path d="M960 330C960 300 1000 300 1010 280" stroke="#0A2250" stroke-width="6" fill="none"/>
+</svg>

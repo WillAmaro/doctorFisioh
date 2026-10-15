@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Tema claro (por defecto) — valores en canales RGB ===== */
+:root {
+  --color-primary: 30 111 230; /* botones, enlaces */
+  --color-primary-600: 21 94 208;
+  --color-primary-700: 11 78 190;
+  --color-navy: 10 42 94; /* títulos */
+  --color-navy-900: 8 38 86; /* hero y footer */
+  --color-accent: 25 217 192; /* turquesa de acento */
+  --color-ink: 33 49 77; /* texto principal */
+  --color-muted: 91 111 140; /* texto secundario */
+  --color-line: 226 236 247; /* bordes */
+  --color-soft: 243 248 253; /* fondo de secciones alternas */
+  --color-tint: 227 240 253; /* fondo de círculos de iconos */
+  --color-surface: 255 255 255;
+}
+
+/* ===== Tema oscuro (activar con <html data-theme="dark">) ===== */
+[data-theme="dark"] {
+  --color-primary: 74 144 245;
+  --color-primary-600: 56 128 232;
+  --color-primary-700: 40 110 214;
+  --color-navy: 214 228 250;
+  --color-navy-900: 6 22 52;
+  --color-accent: 40 224 200;
+  --color-ink: 214 224 240;
+  --color-muted: 143 162 192;
+  --color-line: 30 50 84;
+  --color-soft: 11 27 56;
+  --color-tint: 22 48 90;
+  --color-surface: 8 20 42;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-surface font-sans text-ink antialiased;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}

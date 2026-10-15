@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#082A66"/>
+      <stop offset="1" stop-color="#0B5BD0"/>
+    </linearGradient>
+    <linearGradient id="scrub" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2160C9"/>
+      <stop offset="1" stop-color="#143F94"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0C4A0"/>
+      <stop offset="1" stop-color="#DDA27A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <circle cx="1000" cy="250" r="380" fill="#fff" opacity=".05"/>
+  <circle cx="1100" cy="620" r="220" fill="#19D9C0" opacity=".06"/>
+
+  <!-- equipo de ultrasonido sobre carro -->
+  <g transform="translate(560 150)">
+    <rect x="30" y="310" width="190" height="250" rx="18" fill="#DCE8F7"/>
+    <rect x="30" y="310" width="190" height="44" rx="18" fill="#C2D5EE"/>
+    <rect x="52" y="378" width="146" height="14" rx="7" fill="#fff" opacity=".75"/>
+    <rect x="52" y="408" width="146" height="14" rx="7" fill="#fff" opacity=".75"/>
+    <rect x="52" y="438" width="100" height="14" rx="7" fill="#fff" opacity=".75"/>
+    <rect x="108" y="180" width="34" height="140" fill="#B3C8E4"/>
+    <rect x="0" y="30" width="250" height="160" rx="18" fill="#EAF2FC"/>
+    <rect x="14" y="44" width="222" height="132" rx="12" fill="#0D2F66"/>
+    <polyline points="30,118 70,118 86,72 106,150 126,90 146,130 170,130 222,130" stroke="#1FE0C4" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="30" y="58" width="60" height="8" rx="4" fill="#4C86E6" opacity=".7"/>
+    <circle cx="204" cy="62" r="6" fill="#19D9C0"/>
+    <rect x="14" y="545" width="222" height="16" rx="8" fill="#9FB6D6"/>
+    <circle cx="64" cy="582" r="16" fill="#0E2B66"/>
+    <circle cx="186" cy="582" r="16" fill="#0E2B66"/>
+  </g>
+
+  <!-- fisioterapeuta -->
+  <path d="M840 340C860 250 930 215 1010 212L1110 214C1170 226 1200 270 1200 330V700H840Z" fill="url(#scrub)"/>
+  <path d="M960 214l50 70 50-70z" fill="#18439C"/>
+  <rect x="985" y="170" width="50" height="52" rx="20" fill="#E3AE88"/>
+  <ellipse cx="1010" cy="120" rx="62" ry="72" fill="url(#skin)"/>
+  <path d="M948 112c-6-58 36-92 82-88 38 3 56 34 50 78-10-26-30-38-60-40-26-2-52 12-72 50z" fill="#1B1B24"/>
+  <path d="M1068 106q10 24 0 40" stroke="#C98E68" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- brazo y mano -->
+  <path d="M900 300C860 380 850 450 870 520" stroke="#1B53B8" stroke-width="74" stroke-linecap="round" fill="none"/>
+  <path d="M868 470L880 548" stroke="url(#skin)" stroke-width="40" stroke-linecap="round"/>
+
+  <!-- pierna / rodilla -->
+  <path d="M520 700V640C640 600 780 590 900 585C1020 580 1120 610 1200 650V700Z" fill="#F4F8FF" opacity=".9"/>
+  <path d="M560 700V655C700 610 820 600 930 598C1040 596 1130 620 1200 660V700Z" fill="url(#skin)"/>
+  <circle cx="900" cy="618" r="58" fill="#E7B28D"/>
+
+  <!-- cabezal ultrasonido -->
+  <path d="M884 548L912 586" stroke="#8FA3BD" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="916" cy="592" r="26" fill="#D5E0EE"/>
+  <circle cx="916" cy="592" r="12" fill="#6F86A8"/>
+  <path d="M856 540C780 500 730 440 712 370" stroke="#0E2450" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>
